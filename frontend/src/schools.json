@@ -1,0 +1,199 @@
+[
+  {
+    "id": "science",
+    "name": "School of Science",
+    "description": "Our School of Science provides comprehensive education in natural sciences with state-of-the-art laboratory facilities. We focus on practical skills and research methodologies.",
+    "requirements": "Grade 12 with Science & Mathematics, Minimum 25 points",
+    "email": "science@sepocollege.com.na",
+    "courses": [
+      {
+        "name": "Biology Fundamentals",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Chemistry & Laboratory Techniques",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Physics Principles",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Environmental Science",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Science Laboratory Technology",
+        "duration": "3 Years",
+        "level": "Advanced Diploma"
+      }
+    ],
+    "facilities": [
+      "Modern Laboratories",
+      "Research Center",
+      "Science Library",
+      "Computer Lab"
+    ]
+  },
+  {
+    "id": "computers",
+    "name": "School of Computers",
+    "description": "The School of Computers offers cutting-edge IT education with a focus on practical skills in software development, networking, and information systems. Our programs are designed to meet industry demands.",
+    "requirements": "Grade 12 Certificate, Basic Computer Knowledge, Mathematics recommended",
+    "email": "computers@sepocollege.com.na",
+    "courses": [
+      {
+        "name": "Introduction to ICT",
+        "duration": "6 Months",
+        "level": "Certificate"
+      },
+      {
+        "name": "Software Development",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Network Administration",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Database Management",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Web & Mobile Development",
+        "duration": "3 Years",
+        "level": "Advanced Diploma"
+      },
+      {
+        "name": "Cybersecurity Fundamentals",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Cloud Computing",
+        "duration": "6 Months",
+        "level": "Certificate"
+      }
+    ],
+    "facilities": [
+      "Computer Labs",
+      "Network Simulation Lab",
+      "Software Development Center",
+      "IT Library",
+      "Cybersecurity Lab",
+      "Hardware Workshop"
+    ]
+  },
+  {
+    "id": "automotive",
+    "name": "School of Automotive",
+    "description": "Our Automotive School provides comprehensive training in vehicle mechanics, driving skills, and automotive technology with hands-on workshops. We prepare students for careers in the automotive industry.",
+    "requirements": "Valid Learners License, Grade 10 Certificate, Medical Fitness Certificate",
+    "email": "automotive@sepocollege.com.na",
+    "courses": [
+      {
+        "name": "Basic Driving Skills",
+        "duration": "3 Months",
+        "level": "Certificate"
+      },
+      {
+        "name": "Vehicle Maintenance",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Automotive Engineering",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Advanced Driving Techniques",
+        "duration": "6 Months",
+        "level": "Certificate"
+      },
+      {
+        "name": "Transport Management",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Heavy Vehicle Operation",
+        "duration": "6 Months",
+        "level": "Certificate"
+      },
+      {
+        "name": "Automotive Electronics",
+        "duration": "1 Year",
+        "level": "Certificate"
+      }
+    ],
+    "facilities": [
+      "Driving Range",
+      "Vehicle Workshop",
+      "Simulation Lab",
+      "Parts Library",
+      "Diagnostic Center",
+      "Fleet Vehicles"
+    ]
+  },
+  {
+    "id": "entertainment",
+    "name": "School of Entertainment",
+    "description": "The School of Entertainment focuses on creative arts, media production, and performance arts, preparing students for dynamic careers in the creative industries through hands-on training and industry exposure.",
+    "requirements": "Grade 12 Certificate, Portfolio/Interview, Creative aptitude test",
+    "email": "entertainment@sepocollege.com.na",
+    "courses": [
+      {
+        "name": "Media Production",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Graphic Design",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Performing Arts",
+        "duration": "2 Years",
+        "level": "Diploma"
+      },
+      {
+        "name": "Digital Marketing",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Entertainment Management",
+        "duration": "3 Years",
+        "level": "Advanced Diploma"
+      },
+      {
+        "name": "Music Production",
+        "duration": "1 Year",
+        "level": "Certificate"
+      },
+      {
+        "name": "Film & TV Production",
+        "duration": "2 Years",
+        "level": "Diploma"
+      }
+    ],
+    "facilities": [
+      "Recording Studio",
+      "Media Lab",
+      "Performance Theater",
+      "Design Studio",
+      "Photography Studio",
+      "Editing Suites",
+      "Art Gallery"
+    ]
+  }
+]
