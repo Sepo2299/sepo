@@ -45,3 +45,4 @@ The supplied college logo is included unchanged. Illustrative photography loads 
 
 React 18, React Router, Vite, Tailwind CSS, React Icons, and standard CSS. The retained backend uses Node.js, Express, MySQL, bcrypt, JWT, and Nodemailer.
 "# sepo" 
+"# sepo" 
