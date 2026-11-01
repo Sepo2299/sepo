@@ -1,0 +1,18 @@
+{
+  "name": "sepocollege-website",
+  "version": "1.0.0",
+  "description": "Sepo College Website - Full Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "keywords": ["college", "education", "namibia", "e-learning"],
+  "author": "Sepo College",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

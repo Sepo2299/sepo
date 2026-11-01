@@ -1,0 +1,36 @@
+{
+  "name": "sepocollege-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Sepo College Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node local-server.js",
+    "dev": "nodemon local-server.js",
+    "test": "node --test tests/local-workflow.test.cjs"
+  },
+  "keywords": [
+    "college",
+    "education",
+    "namibia",
+    "e-learning"
+  ],
+  "author": "Sepo College",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.0",
+    "nodemailer": "^6.9.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
