@@ -21,6 +21,15 @@ Requires Node.js 22 and npm.
 
 Run npm run build to create frontend/dist. Run npm run preview to inspect the production build.
 
+## Deploy on Netlify
+
+The repository includes a Netlify configuration for the Vite frontend. In Netlify, choose **Add new site → Import an existing project**, connect this GitHub repository, and deploy using the detected settings. The configuration builds from frontend with Node.js 22, publishes dist, and routes client-side pages correctly. Add environment variables in the Netlify site settings before deploying if needed:
+
+- `VITE_MOODLE_URL`: the Moodle HTTPS address. Leave unset until Moodle is ready.
+- `VITE_API_BASE_URL`: the hosted admissions API HTTPS address ending in `/api`. Leave unset for the static design preview; applications and student status checks will be disabled.
+
+The Express/MySQL backend is not hosted by Netlify's static-site deployment. Host it separately, configure its database and CORS to allow the Netlify site domain, then set `VITE_API_BASE_URL` in Netlify and trigger a new deploy. Do not put database credentials or private secrets in `VITE_` variables; those are included in the public frontend build.
+
 ## Moodle
 
 Moodle has not been set up yet. The website displays a coming-soon state and does not collect Moodle passwords. When Moodle is ready, create frontend/.env from .env.example and set VITE_MOODLE_URL to its HTTPS address. Rebuild or restart the frontend. This is a direct link to Moodle, not single sign-on or automatic enrolment. See MOODLE-SETUP.md.
